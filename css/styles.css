@@ -1,0 +1,158 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #04AA6D;;
+  }
+
+  section.banner{
+    color: white;
+    background: linear-gradient(to right, rgb(78, 78, 78), rgb(0 0 0));
+}
+
+  .containerB{
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    grid-gap: 2rem;
+}
+
+  .col1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgBanner{
+    width: 60%;
+}
+.btnBanner{
+    background: orange;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+/*About Us*/
+
+.Aboutus{
+    padding: 3rem 0;
+    
+}
+
+.subAboutus{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: aqua;
+}
+
+.ContainerAU{
+    width: 70%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    grid-gap: 2rem;
+}
+
+.imgAboutUs{
+    width: 70%;
+}
+
+/*Testimonios*/
+
+.Testimonios{
+    padding: 3rem 0;
+    
+}
+
+.subTestimonios{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: aqua;
+}
+
+.ContainerT{
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    grid-gap: 2rem;
+}
+
+.trabajador{
+    width: 40%;
+    height: 40%;
+}
+
+.boxT{
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 55px 5px rgb(0 0 0/6%);
+}
+
+#Testimonio{
+    padding: 1rem 0;
+}
+
+/*Nosotros*/
+
+.Nosotros{
+    padding: 3rem 0;
+}
+
+.subNosotros{
+    text-align: center;
+    padding-bottom: 2rem;
+    color: aqua;
+}
+
+.ContainerN{
+    width: 70%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    grid-gap: 2rem;
+}
+
+.imgNosotros{
+    width: 50%;
+}
+
+#Nosotros{
+    padding: 1rem 0;
+}
+
+.btnNosotros{
+    background: orange;
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #4c4c4c;
+    color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
